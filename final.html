@@ -1,0 +1,333 @@
+<html>
+    <head><title>犬夜叉 人物介紹</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>        
+    <script>
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                rtl: true
+            });
+        });
+    </script>
+    <style>
+        *{
+            margin:0;
+            color:blue;
+            text-align:center;
+        }
+        /* top */
+        .top .container{
+            display: flex;
+            align-items: space-between;
+            justify-content:space-between;
+            padding:5px;
+        }
+        .top .logo{
+            font-size: 0px;
+            font-weight:center;
+        }
+        .top .logo img{
+          width:700px;
+          vertical-align:center;
+        }
+    
+        .top{
+             background-color:purple;
+             height:80px;
+             display:center;
+        }
+
+       
+        .top .top-nav a{
+            text-decoration: none;
+        }
+        /* nav */
+        .nav {
+            background-color:#333;
+            display: flex;
+            justify-content:center;
+        }
+        .nav ul {
+            list-style-type: none;  
+            
+           
+            overflow: hidden; 
+            background-color: #333; 
+        }
+        .nav li {
+            float: left; 
+        }
+        .nav li a {    
+            display: block;  
+            color:white;  
+            text-align: center;  
+            padding: 8px 16px;  
+            text-decoration: none;  
+        }
+        .nav li a:hover {
+            background-color: #111; 
+        }
+        /*下拉式選單*/
+        .dropdown:hover .dropdown-content {
+            display: block;   /*使用block呈現上下排列*/
+        }
+        li.dropdown:hover{
+            background-color: #333;  /*設定背景顏色*/
+        }
+        .dropdown-content {  /*設定下拉選單內容格式*/
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 80px;
+            z-index: 1;
+        }
+        .dropdown-content a {/*設定下拉選單連結內容格式*/
+            color: black;
+            padding: 8px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        /* slider */
+        .slider{
+            background-color: white;
+        }
+        /* banner*/
+        .banner{
+            background-image: linear-gradient(#ABDCFF,#0396FF);
+            padding:150px;
+        }
+        .banner h1{
+           padding: 30px;
+        }        
+        /*faculty*/
+        .faculty {
+            display: block;
+            justify-content: center;
+            background-color:white;
+            padding:40px;
+        }
+        .faculty h2 {
+            font-size: 25px;
+            color: rgb(50,51,52);
+            padding-bottom:40px;
+        }
+        .faculty .container {
+            /*border:1px solid red;*/
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .faculty .teacher{
+            /*border:1px solid blue;*/
+            display:block;
+            text-decoration: none;
+        }
+        .faculty .teacher img{
+            height: 200px;
+            width: 200px;
+        }
+        .faculty .teacher h3{
+            color: White;
+            background-color: rgba(39,40,34,.500);
+            text-align: center;           
+        }
+        /*contact*/
+        .contact {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;                
+        }
+        .contact .container{
+            display: block;
+        }
+        .contact .container h2{
+            color: rgb(54, 82, 110);
+            font-size: 25px;
+        }
+        .contact .container .infos{
+            display:flex;
+            margin-top: 30px; 
+        }
+        .contact .container .infos .left{
+            display:block;
+            text-align: left;
+            margin-right: 30px;
+        }
+        .contact .container .infos .left b{
+            display:block;
+            text-align: left;
+            margin-top: 10px;
+            text-decoration: bold;
+            color: blue;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        .contact .container .infos .left span{
+            display:block;
+            text-align: left;
+            margin-top: 10px;
+            color: rgba(39,40,34,0.5);
+            font-size: 16px;
+            padding-left: 27px;
+        }
+        .contact .container .infos .right{
+            height: 200px;               
+        }
+        .contact .container .infos .right iframe{
+            width: 100%;
+            height: 100%;
+        }
+        /*footer*/
+        .footer{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(25,26,30);
+            padding: 30px 0;
+        }
+    </style>
+    </head>
+    <body>
+       <head><title> 犬夜叉 人物介紹</title>
+    <meta charset="utf-8">
+    <style>
+        *{
+            margin:0;
+            color:brown;
+            font-size: 20px;
+            text-align:center;
+        }
+        /* top */
+        .top{
+             background-color:yellow;
+             height:80px;
+        }
+        /* nav */
+        .nav {
+            background-color:white;
+            height:120px;
+        }
+        /* slider */
+        .slider{
+            background-color: white;
+            height:420px;
+        }
+        /* banner*/
+        .banner{
+            background-color:white;
+            height:200px;
+        }
+        /*faculty*/
+        .faculty {
+          background-color: yellow;      
+          height:300px;
+        }
+        .contact {
+            background-color:white;
+            height:280px;
+        }
+        /*footer*/
+        .footer{
+            background-color:yellow;      
+            height:10px;
+        }
+    </style>
+    </head>
+    <body>
+        
+        <div class="top">
+    <div class="container">
+        <div class="logo">
+            <img src="http://www.uei-shiang.com/atlantis/img/titleF.gif">
+          <p>
+                     犬夜叉 人物介紹
+          </p>
+        </div>
+    </div>
+</div>
+<div class="nav">     
+    <ul>
+        <li><a href="#home">首頁</a></li>
+        <li  class="dropdown"><a href="#faculty">成員簡介</a>
+        <div class="dropdown-content">
+        <a href="#faculty">桔梗</a>
+        <a href="#faculty">犬夜叉</a>
+        <a href="#faculty">日暮籬</a>
+            </div>
+            </li>
+        <li><a href="#about">相關資訊</a></li>  
+   
+            
+    </ul>
+</div>
+ <link href="https://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>        
+<script>
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            rtl: true
+        });
+    });
+</script>
+
+       <div class="slider">
+    <div class="flexslider">
+        <ul class="slides">
+            <li><img src="https://thumbor.4gamers.com.tw/OvPKvpc1ENBss_0GHoTjOZgeAfE=/800x0/filters:extract_cover():no_upscale():quality(80)/https%3A%2F%2Fimg.4gamers.com.tw%2Fckfinder%2Fimages%2FKaty%2F2022%20spring%20press%2F%E5%9C%961_%E7%8A%AC%E5%A4%9C%E5%8F%89%E5%92%96%E5%95%A1-%E4%B8%BB%E5%AE%A3%E5%9C%96.jpg%3FversionId%3D.UOgwk6favE1fTwsXoPLFoLhUf1oT8J1" /></li>
+            <li><img src="https://image.ruten.com.tw/g2/0/8c/bc/21745308976316_756.jpg" /></li>
+            <li><img src="https://pic.pimg.tw/primoyang/1440324154-3083606390_n.jpg?v=1440324185" /></li>
+        </ul>
+    </div>
+</div>
+       <div class="banner" id="faculty">
+    <h1>成員簡介</h1>
+    <h1>靈力強大，守護、淨化四魂之玉的巫女</h1>
+    <h1>具有一半人類血統，一半妖怪血統</h1>
+    <h1>桔梗去世後轉世降生的少女，國中三年級學生</h1>
+</div>
+       <div class="faculty"id="faculty">
+    <h2>主要角色</h2>
+    <div class="container">
+        <a class="teacher" href="">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.xMhyegh2wclS7pK8pz-eJwHaFj&pid=Api&P=0" />
+            <h3>桔梗</h3>
+        </a>
+        <a class="teacher" href="">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.kr0dv8lv7uL0c8vTJ-U4GQHaEo&pid=Api&P=0" />
+            <h3>犬夜叉</h3>
+       </a>
+       <a class="teacher" href="">
+           <img src="https://tse2.mm.bing.net/th?id=OIP.4vUDAQEicPOYDZlvb-8HUAHaFk&pid=Api&P=0" />
+           <h3>日暮籬</h3>
+       </a>        
+    </div>
+        <div class="contact" id="about">
+  <h2>名片</h2>
+  <div class="infos">
+    <div class="left">
+      <b>片名:犬夜叉</b>
+      <p>製作:讀賣電視台、SUNRISE</p>
+      <p>原作：高橋留美子</p>
+      <p>主要製作人：諏訪道彥（ytv）、富岡秀行（SUNRISE）</p>
+      <p> 全167話</p>
+      <p>版權資訊	©Rumiko Takahashi/Shogakukan, Yomiuri TV, SUNRISE 2009</p>
+    </div>
+    <div class="right">
+      <iframe src="https://tse1.mm.bing.net/th?id=OIP.92aiuzmDwOIlts_Tht9wswAAAA&pid=Api&P=0" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+       <div class="footer">
+    &copy;©Rumiko Takahashi/2000, 2006 Shogakukan, Yomiuri TV, SUNRISE
+ </div>
+        
+  </body>
+  </body>
+  </html>
